@@ -4,5 +4,9 @@
 
     <!--Questions-->
 
-    <string name="question1">A computer an electronic machine that does?</string>
+    <string name="q1">A computer is an electronic machine that does?</string>
+    <string name="q1_a">Computing</string>
+    <string name="q1_b">Astronomy</string>
+    <string name="q1_c">Economics</string>
+    <string name="q1_d">Bioengineering</string>
 </resources>
