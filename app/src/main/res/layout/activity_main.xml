@@ -17,12 +17,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:background="@drawable/card_background"
-            android:orientation="vertical"
-            android:shadowColor="#000000"
-            android:shadowDx="1"
-            android:shadowDy="1"
-            android:shadowRadius="50">
+            android:background="@drawable/elevation"
+            android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
