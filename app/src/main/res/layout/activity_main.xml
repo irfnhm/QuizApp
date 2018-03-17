@@ -72,10 +72,16 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
             android:background="@drawable/elevation"
             android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="327dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sophia"
+                android:scaleType="centerCrop" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -87,48 +93,19 @@
                 android:textSize="@dimen/text_size"
                 android:textStyle="bold" />
 
-            <RadioGroup
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/radio_group_top_margin"
-                android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q2_a"
-                    android:textColor="@color/text_color"
-                    android:textSize="@dimen/radio_text" />
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q2_b"
-                    android:textColor="@color/text_color"
-                    android:textSize="@dimen/radio_text" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q2_c"
-                    android:textColor="@color/text_color"
-                    android:textSize="@dimen/radio_text" />
-
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q2_d"
-                    android:textColor="@color/text_color"
-                    android:textSize="@dimen/radio_text" />
-            </RadioGroup>
         </LinearLayout>
 
         <!--Question 3-->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
@@ -168,8 +145,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
@@ -223,8 +200,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
@@ -278,8 +255,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
@@ -333,8 +310,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
@@ -388,8 +365,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
@@ -443,8 +420,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
@@ -498,8 +475,8 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
@@ -513,67 +490,58 @@
                 android:textSize="@dimen/text_size"
                 android:textStyle="bold" />
 
-            <RadioGroup
+            <CheckBox
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/radio_group_top_margin"
-                android:orientation="vertical">
+                android:text="@string/q10_a" />
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q10_a"
-                    android:textColor="@color/text_color"
-                    android:textSize="@dimen/radio_text" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q10_b" />
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q10_b"
-                    android:textColor="@color/text_color"
-                    android:textSize="@dimen/radio_text" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q10_c" />
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q10_c"
-                    android:textColor="@color/text_color"
-                    android:textSize="@dimen/radio_text" />
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q10_d" />
 
-                <RadioButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/q10_d"
-                    android:textColor="@color/text_color"
-                    android:textSize="@dimen/radio_text" />
-            </RadioGroup>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/q10_e" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_marginTop="@dimen/buttonsViewTopMargin"
-            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="@dimen/buttonsViewTopMargin"
+            android:orientation="horizontal">
 
             <!--reset the game and start over-->
             <Button
-                android:layout_marginLeft="@dimen/resetButtonLeftMargin"
-                android:elevation="@dimen/elevationButton"
-                android:textColor="@color/buttonTextColor"
-                android:background="@color/resetColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/resetButton"/>
+                android:layout_marginLeft="@dimen/resetButtonLeftMargin"
+                android:background="@drawable/button"
+                android:elevation="@dimen/elevationButton"
+                android:text="@string/resetButton"
+                android:textColor="@color/buttonTextColor" />
 
             <!--submit final score-->
             <Button
-                android:elevation="@dimen/elevationButton"
-                android:textColor="@color/buttonTextColor"
-                android:layout_marginLeft="@dimen/submitButtonLeftMargin"
-                android:background="@color/submitColor"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/submitGame"/>
+                android:layout_marginLeft="@dimen/submitButtonLeftMargin"
+                android:background="@drawable/button"
+                android:elevation="@dimen/elevationButton"
+                android:text="@string/submitGame"
+                android:textColor="@color/buttonTextColor" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

@@ -9,11 +9,8 @@
     <string name="q1_d">A reference is stored in a binary tree.</string>
 
     <!--Question 2-->
-    <string name="q2">A constructor that accepts ____ parameters is called the default constructor.</string>
-    <string name="q2_a">One</string>
-    <string name="q2_b">Two</string>
-    <string name="q2_c">Three</string>
-    <string name="q2_d">None</string>
+    <string name="q2">What is the name of this Humanoid Robot?</string>
+
 
     <!--Question 3-->
     <string name="q3">If malloc() successfully allocates memory it returns the number of bytes it has allocated.</string>
@@ -63,11 +60,12 @@
     <string name="q9_d">what the data mean</string>
 
     <!--Question 10-->
-    <string name="q10">Which type of signal is represented by discrete values?</string>
-    <string name="q10_a">Noisy signal</string>
-    <string name="q10_b">Nonlinear</string>
-    <string name="q10_c">Analog</string>
-    <string name="q10_d">Digital</string>
+    <string name="q10">Check out the areas in which data structures are applied extensively?</string>
+    <string name="q10_a">Compiler Design</string>
+    <string name="q10_b">Operating System</string>
+    <string name="q10_c">Noisy signal</string>
+    <string name="q10_d">Nonlinear</string>
+    <string name="q10_e">Database Management System</string>
 
     <!--Game play-->
     <string name="resetButton">Reset</string>
