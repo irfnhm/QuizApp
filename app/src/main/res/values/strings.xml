@@ -1,12 +1,71 @@
 <resources>
     <string name="app_name">Quiz App</string>
-
-
     <!--Questions-->
+    <!--Question 1-->
+    <string name="q1">Which of the following statement is correct?</string>
+    <string name="q1_a">A reference is stored on heap.</string>
+    <string name="q1_b">A reference is stored on stack.</string>
+    <string name="q1_c">A reference is stored in a queue.</string>
+    <string name="q1_d">A reference is stored in a binary tree.</string>
 
-    <string name="q1">A computer is an electronic machine that does?</string>
-    <string name="q1_a">Computing</string>
-    <string name="q1_b">Astronomy</string>
-    <string name="q1_c">Economics</string>
-    <string name="q1_d">Bioengineering</string>
+    <!--Question 2-->
+    <string name="q2">A constructor that accepts ____ parameters is called the default constructor.</string>
+    <string name="q2_a">One</string>
+    <string name="q2_b">Two</string>
+    <string name="q2_c">Three</string>
+    <string name="q2_d">None</string>
+
+    <!--Question 3-->
+    <string name="q3">Can a class have virtual destructor?</string>
+    <string name="q3_a">Yes</string>
+    <string name="q3_b">No</string>
+
+    <!--Question 4-->
+    <string name="q4">For automatic objects, constructors and destructors are called each time the objects</string>
+    <string name="q4_a">enter and leave scope</string>
+    <string name="q4_b">inherit parent class</string>
+    <string name="q4_c">are constructed</string>
+    <string name="q4_d">are destroyed</string>
+
+    <!--Question 5-->
+    <string name="q5">A union that has no constructor can be initialized with another union of __________ type.</string>
+    <string name="q5_a">different</string>
+    <string name="q5_b">same</string>
+    <string name="q5_c">virtual</string>
+    <string name="q5_d">class</string>
+
+    <!--Question 6-->
+    <string name="q6">Which of the following allows a router to respond to an ARP request that is intended for a remote host?</string>
+    <string name="q6_a">Gateway DP</string>
+    <string name="q6_b">Reverse ARP (RARP)</string>
+    <string name="q6_c">Proxy ARP</string>
+    <string name="q6_d">Inverse ARP (IARP)</string>
+
+    <!--Question 7-->
+    <string name="q7">Which class of IP address provides a maximum of only 254 host addresses per network ID?</string>
+    <string name="q7_a">Application</string>
+    <string name="q7_b">Presentation</string>
+    <string name="q7_c">Session</string>
+    <string name="q7_d">Transport</string>
+
+    <!--Question 8-->
+    <string name="q8">A data warehouse uses</string>
+    <string name="q8_a">partial operational data</string>
+    <string name="q8_b">historical operational data</string>
+    <string name="q8_c">future operational data</string>
+    <string name="q8_d">health care data</string>
+
+    <!--Question 9-->
+    <string name="q9">Metadata enables database designers and users to do all of the following except</string>
+    <string name="q9_a">sample data</string>
+    <string name="q9_b">understand what data exist</string>
+    <string name="q9_c">what the fine distinctions are between similar data items</string>
+    <string name="q9_d">what the data mean</string>
+
+    <!--Question 10-->
+    <string name="q10">Which type of signal is represented by discrete values?</string>
+    <string name="q10_a">Noisy signal</string>
+    <string name="q10_b">Nonlinear</string>
+    <string name="q10_c">Analog</string>
+    <string name="q10_d">Digital</string>
 </resources>
