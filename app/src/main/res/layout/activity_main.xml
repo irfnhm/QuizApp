@@ -548,5 +548,32 @@
                     android:textSize="@dimen/radio_text" />
             </RadioGroup>
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/buttonsViewTopMargin"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--reset the game and start over-->
+            <Button
+                android:layout_marginLeft="@dimen/resetButtonLeftMargin"
+                android:elevation="@dimen/elevationButton"
+                android:textColor="@color/buttonTextColor"
+                android:background="@color/resetColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/resetButton"/>
+
+            <!--submit final score-->
+            <Button
+                android:elevation="@dimen/elevationButton"
+                android:textColor="@color/buttonTextColor"
+                android:layout_marginLeft="@dimen/submitButtonLeftMargin"
+                android:background="@color/submitColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submitGame"/>
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

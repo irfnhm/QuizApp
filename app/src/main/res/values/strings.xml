@@ -16,9 +16,9 @@
     <string name="q2_d">None</string>
 
     <!--Question 3-->
-    <string name="q3">Can a class have virtual destructor?</string>
-    <string name="q3_a">Yes</string>
-    <string name="q3_b">No</string>
+    <string name="q3">If malloc() successfully allocates memory it returns the number of bytes it has allocated.</string>
+    <string name="q3_a">True</string>
+    <string name="q3_b">False</string>
 
     <!--Question 4-->
     <string name="q4">For automatic objects, constructors and destructors are called each time the objects</string>
@@ -49,11 +49,11 @@
     <string name="q7_d">Transport</string>
 
     <!--Question 8-->
-    <string name="q8">A data warehouse uses</string>
-    <string name="q8_a">partial operational data</string>
-    <string name="q8_b">historical operational data</string>
-    <string name="q8_c">future operational data</string>
-    <string name="q8_d">health care data</string>
+    <string name="q8">Which header file should be included to use functions like malloc() and calloc()?</string>
+    <string name="q8_a">memory.h</string>
+    <string name="q8_b">stdlib.h</string>
+    <string name="q8_c">string.h</string>
+    <string name="q8_d">dos.h</string>
 
     <!--Question 9-->
     <string name="q9">Metadata enables database designers and users to do all of the following except</string>
@@ -68,4 +68,8 @@
     <string name="q10_b">Nonlinear</string>
     <string name="q10_c">Analog</string>
     <string name="q10_d">Digital</string>
+
+    <!--Game play-->
+    <string name="resetButton">Reset</string>
+    <string name="submitGame">Submit</string>
 </resources>

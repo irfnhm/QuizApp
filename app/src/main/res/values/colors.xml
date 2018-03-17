@@ -5,4 +5,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="text_color">#424242</color>
     <color name="wrapper_background_color">#ffffff</color>
+    <color name="resetColor">#009688</color>
+    <color name="submitColor">#009688</color>
+    <color name="buttonTextColor">#ffffff</color>
 </resources>

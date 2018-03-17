@@ -9,5 +9,10 @@
     <dimen name="bottom_padding">16dp</dimen>
     <dimen name="radio_group_top_margin">8dp</dimen>
     <dimen name="radio_text">16sp</dimen>
-
+    <dimen name="buttonsViewTopMargin">20dp</dimen>
+    <dimen name="buttonsViewBottomMargin">20dp</dimen>
+    <dimen name="resetButtonLeftMargin">35dp</dimen>
+    <dimen name="submitButtonLeftMargin">100dp</dimen>
+    <dimen name="buttonCornerRadius">3dp</dimen>
+    <dimen name="elevationButton">1dp</dimen>
 </resources>
