@@ -4,7 +4,7 @@
     <!--Question 1-->
     <string name="q1">Which of the following statement is correct?</string>
     <string name="q1_a">A reference is stored on heap.</string>
-    <string name="q1_b">A reference is stored on stack.</string>
+    <string name="q1_b">A reference is stored on stack.</string><!--answer-->
     <string name="q1_c">A reference is stored in a queue.</string>
     <string name="q1_d">A reference is stored in a binary tree.</string>
 
@@ -15,11 +15,11 @@
     <!--Question 3-->
     <string name="q3">If malloc() successfully allocates memory it returns the number of bytes it has allocated.</string>
     <string name="q3_a">True</string>
-    <string name="q3_b">False</string>
+    <string name="q3_b">False</string><!--answer-->
 
     <!--Question 4-->
     <string name="q4">For automatic objects, constructors and destructors are called each time the objects</string>
-    <string name="q4_a">enter and leave scope</string>
+    <string name="q4_a">enter and leave scope</string><!--answer-->
     <string name="q4_b">inherit parent class</string>
     <string name="q4_c">are constructed</string>
     <string name="q4_d">are destroyed</string>
@@ -27,7 +27,7 @@
     <!--Question 5-->
     <string name="q5">A union that has no constructor can be initialized with another union of __________ type.</string>
     <string name="q5_a">different</string>
-    <string name="q5_b">same</string>
+    <string name="q5_b">same</string><!--answer-->
     <string name="q5_c">virtual</string>
     <string name="q5_d">class</string>
 
@@ -35,37 +35,37 @@
     <string name="q6">Which of the following allows a router to respond to an ARP request that is intended for a remote host?</string>
     <string name="q6_a">Gateway DP</string>
     <string name="q6_b">Reverse ARP (RARP)</string>
-    <string name="q6_c">Proxy ARP</string>
+    <string name="q6_c">Proxy ARP</string><!--answer-->
     <string name="q6_d">Inverse ARP (IARP)</string>
 
     <!--Question 7-->
     <string name="q7">Which class of IP address provides a maximum of only 254 host addresses per network ID?</string>
     <string name="q7_a">Application</string>
     <string name="q7_b">Presentation</string>
-    <string name="q7_c">Session</string>
+    <string name="q7_c">Session</string> <!--answer-->
     <string name="q7_d">Transport</string>
 
     <!--Question 8-->
     <string name="q8">Which header file should be included to use functions like malloc() and calloc()?</string>
     <string name="q8_a">memory.h</string>
-    <string name="q8_b">stdlib.h</string>
+    <string name="q8_b">stdlib.h</string><!--answer-->
     <string name="q8_c">string.h</string>
     <string name="q8_d">dos.h</string>
 
     <!--Question 9-->
     <string name="q9">Metadata enables database designers and users to do all of the following except</string>
-    <string name="q9_a">sample data</string>
+    <string name="q9_a">sample data</string> <!--answer-->
     <string name="q9_b">understand what data exist</string>
-    <string name="q9_c">what the fine distinctions are between similar data items</string>
+    <string name="q9_c">database schema</string>
     <string name="q9_d">what the data mean</string>
 
     <!--Question 10-->
-    <string name="q10">Check out the areas in which data structures are applied extensively?</string>
-    <string name="q10_a">Compiler Design</string>
-    <string name="q10_b">Operating System</string>
-    <string name="q10_c">Noisy signal</string>
-    <string name="q10_d">Nonlinear</string>
-    <string name="q10_e">Database Management System</string>
+    <string name="q10">Check out the areas in which data structures are applied extensively.</string>
+    <string name="q10_a">Compiler Design</string> <!--answer-->
+    <string name="q10_b">Operating System</string><!--answer-->
+    <string name="q10_c">Noisy Signal</string>
+    <string name="q10_d">Nonlinear Systems</string>
+    <string name="q10_e">Database Management System</string><!--answer-->
 
     <!--Game play-->
     <string name="resetButton">Reset</string>
