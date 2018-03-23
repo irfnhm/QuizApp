@@ -11,6 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="@dimen/wrapper_margin"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
         android:orientation="vertical">
 
         <!--Question 1-->
@@ -24,7 +26,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:elevation="2dp"
+                android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q1"
                 android:textColor="@color/text_color"
@@ -38,6 +40,7 @@
                 android:orientation="vertical">
 
                 <RadioButton
+                    android:id="@+id/q_one_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q1_a"
@@ -45,6 +48,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_one_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q1_b"
@@ -52,6 +56,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_one_c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q1_c"
@@ -59,6 +64,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_one_d"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q1_d"
@@ -73,7 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
@@ -86,7 +92,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:elevation="2dp"
+                android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q2"
                 android:textColor="@color/text_color"
@@ -94,6 +100,7 @@
                 android:textStyle="bold" />
 
             <EditText
+                android:id="@+id/image_answer"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
@@ -105,14 +112,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:elevation="2dp"
+                android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q3"
                 android:textColor="@color/text_color"
@@ -126,6 +133,7 @@
                 android:orientation="vertical">
 
                 <RadioButton
+                    android:id="@+id/q_three_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q3_a"
@@ -133,6 +141,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_three_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q3_b"
@@ -146,14 +155,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:elevation="2dp"
+                android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q4"
                 android:textColor="@color/text_color"
@@ -167,6 +176,7 @@
                 android:orientation="vertical">
 
                 <RadioButton
+                    android:id="@+id/q_four_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q4_a"
@@ -174,6 +184,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_four_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q4_b"
@@ -181,6 +192,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_four_c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q4_c"
@@ -188,6 +200,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_four_d"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q4_d"
@@ -201,14 +214,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:elevation="2dp"
+                android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q5"
                 android:textColor="@color/text_color"
@@ -222,6 +235,7 @@
                 android:orientation="vertical">
 
                 <RadioButton
+                    android:id="@+id/q_five_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q5_a"
@@ -229,6 +243,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_five_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q5_b"
@@ -236,6 +251,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_five_c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q5_c"
@@ -243,6 +259,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_five_d"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q5_d"
@@ -256,14 +273,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:elevation="2dp"
+                android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q6"
                 android:textColor="@color/text_color"
@@ -277,6 +294,7 @@
                 android:orientation="vertical">
 
                 <RadioButton
+                    android:id="@+id/q_six_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q6_a"
@@ -284,6 +302,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_six_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q6_b"
@@ -291,6 +310,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_six_c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q6_c"
@@ -298,6 +318,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_six_d"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q6_d"
@@ -311,14 +332,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:elevation="2dp"
+                android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q7"
                 android:textColor="@color/text_color"
@@ -332,6 +353,7 @@
                 android:orientation="vertical">
 
                 <RadioButton
+                    android:id="@+id/q_seven_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q7_a"
@@ -339,6 +361,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_seven_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q7_b"
@@ -346,6 +369,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_seven_c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q7_c"
@@ -353,6 +377,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_seven_d"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q7_d"
@@ -366,14 +391,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:elevation="2dp"
+                android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q8"
                 android:textColor="@color/text_color"
@@ -387,6 +412,7 @@
                 android:orientation="vertical">
 
                 <RadioButton
+                    android:id="@+id/q_eight_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q8_a"
@@ -394,6 +420,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_eight_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q8_b"
@@ -401,6 +428,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_eight_c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q8_c"
@@ -408,6 +436,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_eight_d"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q8_d"
@@ -421,14 +450,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:elevation="2dp"
+                android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q9"
                 android:textColor="@color/text_color"
@@ -442,6 +471,7 @@
                 android:orientation="vertical">
 
                 <RadioButton
+                    android:id="@+id/q_nine_a"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q9_a"
@@ -449,6 +479,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_nine_b"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q9_b"
@@ -456,6 +487,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_nine_c"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q9_c"
@@ -463,6 +495,7 @@
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
+                    android:id="@+id/q_nine_d"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/q9_d"
@@ -476,14 +509,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:elevation="2dp"
+                android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q10"
                 android:textColor="@color/text_color"
@@ -491,26 +524,31 @@
                 android:textStyle="bold" />
 
             <CheckBox
+                android:id="@+id/q_ten_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q10_a" />
 
             <CheckBox
+                android:id="@+id/q_ten_b"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q10_b" />
 
             <CheckBox
+                android:id="@+id/q_ten_c"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q10_c" />
 
             <CheckBox
+                android:id="@+id/q_ten_d"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q10_d" />
 
             <CheckBox
+                android:id="@+id/q_ten_e"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/q10_e" />
@@ -519,12 +557,13 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="@dimen/layoutBottomMargin"
             android:layout_marginTop="@dimen/buttonsViewTopMargin"
             android:orientation="horizontal">
 
             <!--reset the game and start over-->
             <Button
+                android:id="@+id/button_reset"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/resetButtonLeftMargin"
@@ -535,6 +574,7 @@
 
             <!--submit final score-->
             <Button
+                android:id="@+id/button_submit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/submitButtonLeftMargin"

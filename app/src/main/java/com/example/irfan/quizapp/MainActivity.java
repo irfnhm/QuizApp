@@ -11,6 +11,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    private void questonOneAnswer(){}
 
+    //Submit button
+    private void submitGame(){}
+
+    //Reset Button
+    private void resetGame(){
+        
+    }
 }

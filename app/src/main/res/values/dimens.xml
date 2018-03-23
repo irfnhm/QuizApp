@@ -15,4 +15,7 @@
     <dimen name="submitButtonLeftMargin">100dp</dimen>
     <dimen name="buttonCornerRadius">3dp</dimen>
     <dimen name="elevationButton">1dp</dimen>
+    <dimen name="textViewElevation">2dp</dimen>
+    <dimen name="layoutTopMargin">10dp</dimen>
+    <dimen name="layoutBottomMargin">30dp</dimen>
 </resources>
