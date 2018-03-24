@@ -29,7 +29,12 @@ public class MainActivity extends AppCompatActivity {
         EditText et = (EditText) findViewById(R.id.image_answer);
         Editable imageAnswer = et.getText();
         String answer = imageAnswer.toString();
-        if (answer == "sophia" || answer == "Sophia" || answer == "SOPHIA") finalScore += 1;
+
+        //Some possible values of user behavioural input
+        String tempString1  = new String("Sophia");
+        String tempString2  = new String("sophia");
+        String tempString3  = new String("SOPHIA");
+        if (answer == tempString1 || answer == tempString2 || answer == tempString3) finalScore += 1;
 
         RadioButton rb3 = (RadioButton) findViewById(R.id.q_three_b);
         if(rb3.isChecked()) finalScore += 1;
@@ -53,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         if(rb9.isChecked()) finalScore += 1;
 
         CheckBox cb1 = (CheckBox) findViewById(R.id.q_ten_a);
-        CheckBox cb2 = (CheckBox) findViewById(R.id.q_ten_c);
+        CheckBox cb2 = (CheckBox) findViewById(R.id.q_ten_b);
         CheckBox cb3 = (CheckBox) findViewById(R.id.q_ten_e);
         if (cb1.isChecked() && cb2.isChecked() && cb3.isChecked()) finalScore += 1;
 
@@ -72,6 +77,9 @@ public class MainActivity extends AppCompatActivity {
 
     //Reset Button
     public void resetGame(View view){
+        //Reset score
+        finalScore = 0;
+
         //Clear answer values for question one
         RadioGroup rg1 = (RadioGroup) findViewById(R.id.questionOneRadioGroup);
         rg1.clearCheck();
