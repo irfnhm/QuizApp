@@ -18,15 +18,15 @@
 
         <!--Question 1-->
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q1"
@@ -36,39 +36,39 @@
 
             <RadioGroup
                 android:id="@+id/questionOneRadioGroup"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginTop="@dimen/radio_group_top_margin"
                 android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/q_one_a"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q1_a"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_one_b"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q1_b"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_one_c"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q1_c"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_one_d"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q1_d"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
@@ -78,8 +78,8 @@
 
         <!--Question 2-->
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
@@ -87,13 +87,13 @@
 
             <ImageView
                 android:layout_width="327dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@drawable/sophia"
                 android:scaleType="centerCrop" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q2"
@@ -111,16 +111,16 @@
 
         <!--Question 3-->
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q3"
@@ -130,23 +130,23 @@
 
             <RadioGroup
                 android:id="@+id/questionThreeRadioGroup"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginTop="@dimen/radio_group_top_margin"
                 android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/q_three_a"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q3_a"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_three_b"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q3_b"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
@@ -155,16 +155,16 @@
 
         <!--Question 4-->
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q4"
@@ -174,39 +174,39 @@
 
             <RadioGroup
                 android:id="@+id/questionFourRadioGroup"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginTop="@dimen/radio_group_top_margin"
                 android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/q_four_a"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q4_a"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_four_b"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q4_b"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_four_c"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q4_c"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_four_d"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q4_d"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
@@ -215,16 +215,16 @@
 
         <!--Question 5-->
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q5"
@@ -234,39 +234,39 @@
 
             <RadioGroup
                 android:id="@+id/questionFiveRadioGroup"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginTop="@dimen/radio_group_top_margin"
                 android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/q_five_a"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q5_a"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_five_b"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q5_b"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_five_c"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q5_c"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_five_d"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q5_d"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
@@ -275,16 +275,16 @@
 
         <!--Question 6-->
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q6"
@@ -294,39 +294,39 @@
 
             <RadioGroup
                 android:id="@+id/questionSixRadioGroup"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginTop="@dimen/radio_group_top_margin"
                 android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/q_six_a"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q6_a"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_six_b"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q6_b"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_six_c"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q6_c"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_six_d"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q6_d"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
@@ -335,16 +335,16 @@
 
         <!--Question 7-->
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q7"
@@ -354,39 +354,39 @@
 
             <RadioGroup
                 android:id="@+id/questionSevenRadioGroup"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginTop="@dimen/radio_group_top_margin"
                 android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/q_seven_a"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q7_a"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_seven_b"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q7_b"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_seven_c"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q7_c"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_seven_d"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q7_d"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
@@ -395,16 +395,16 @@
 
         <!--Question 8-->
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q8"
@@ -414,39 +414,39 @@
 
             <RadioGroup
                 android:id="@+id/questionEightRadioGroup"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginTop="@dimen/radio_group_top_margin"
                 android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/q_eight_a"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q8_a"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_eight_b"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q8_b"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_eight_c"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q8_c"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_eight_d"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q8_d"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
@@ -455,16 +455,16 @@
 
         <!--Question 9-->
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q9"
@@ -474,39 +474,39 @@
 
             <RadioGroup
                 android:id="@+id/questionNineRadioGroup"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:layout_marginTop="@dimen/radio_group_top_margin"
                 android:orientation="vertical">
 
                 <RadioButton
                     android:id="@+id/q_nine_a"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q9_a"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_nine_b"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q9_b"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_nine_c"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q9_c"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
 
                 <RadioButton
                     android:id="@+id/q_nine_d"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     android:text="@string/q9_d"
                     android:textColor="@color/text_color"
                     android:textSize="@dimen/radio_text" />
@@ -515,16 +515,16 @@
 
         <!--Question 10-->
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="@dimen/layoutTopMargin"
             android:background="@drawable/elevation"
             android:orientation="vertical">
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:elevation="@dimen/textViewElevation"
                 android:padding="@dimen/text_padding"
                 android:text="@string/q10"
@@ -534,32 +534,32 @@
 
             <CheckBox
                 android:id="@+id/q_ten_a"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:text="@string/q10_a" />
 
             <CheckBox
                 android:id="@+id/q_ten_b"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:text="@string/q10_b" />
 
             <CheckBox
                 android:id="@+id/q_ten_c"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:text="@string/q10_c" />
 
             <CheckBox
                 android:id="@+id/q_ten_d"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:text="@string/q10_d" />
 
             <CheckBox
                 android:id="@+id/q_ten_e"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:text="@string/q10_e" />
         </LinearLayout>
 

@@ -20,65 +20,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    //Submit button
-    public void submitGame(View view){
-        //Evaluate question one
-        RadioButton rb1 = (RadioButton) findViewById(R.id.q_one_b);
-        if(rb1.isChecked()) finalScore += 1;
-
-        EditText et = (EditText) findViewById(R.id.image_answer);
-        Editable imageAnswer = et.getText();
-        String answer = imageAnswer.toString();
-
-        //Some possible values of user behavioural input
-        String tempString1  = new String("Sophia");
-        String tempString2  = new String("sophia");
-        String tempString3  = new String("SOPHIA");
-        if (answer == tempString1 || answer == tempString2 || answer == tempString3) finalScore += 1;
-
-        RadioButton rb3 = (RadioButton) findViewById(R.id.q_three_b);
-        if(rb3.isChecked()) finalScore += 1;
-
-        RadioButton rb4 = (RadioButton) findViewById(R.id.q_four_a);
-        if(rb4.isChecked()) finalScore += 1;
-
-        RadioButton rb5 = (RadioButton) findViewById(R.id.q_five_b);
-        if(rb5.isChecked()) finalScore += 1;
-
-        RadioButton rb6 = (RadioButton) findViewById(R.id.q_six_c);
-        if(rb6.isChecked()) finalScore += 1;
-
-        RadioButton rb7 = (RadioButton) findViewById(R.id.q_seven_c);
-        if(rb7.isChecked()) finalScore += 1;
-
-        RadioButton rb8 = (RadioButton) findViewById(R.id.q_eight_b);
-        if (rb8.isChecked()) finalScore += 1;
-
-        RadioButton rb9 = (RadioButton) findViewById(R.id.q_nine_a);
-        if(rb9.isChecked()) finalScore += 1;
-
-        CheckBox cb1 = (CheckBox) findViewById(R.id.q_ten_a);
-        CheckBox cb2 = (CheckBox) findViewById(R.id.q_ten_b);
-        CheckBox cb3 = (CheckBox) findViewById(R.id.q_ten_e);
-        if (cb1.isChecked() && cb2.isChecked() && cb3.isChecked()) finalScore += 1;
-
-        //Toast.makeText(MainActivity.this, "Your Score is:" + finalScore, Toast.LENGTH_LONG).show();
-        final Toast myToast = Toast.makeText(MainActivity.this, "Your score is: " + finalScore, Toast.LENGTH_SHORT);
-        myToast.show();
-
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                myToast.cancel();
-            }
-        }, 5000);
-    }
-
-    //Reset Button
-    public void resetGame(View view){
-        //Reset score
-        finalScore = 0;
+    /* Clears answers for all the questions.
+    * This function can be called anywhere, it's needed.*/
+    private void reset(){
 
         //Clear answer values for question one
         RadioGroup rg1 = (RadioGroup) findViewById(R.id.questionOneRadioGroup);
@@ -131,6 +75,67 @@ public class MainActivity extends AppCompatActivity {
 
         CheckBox cb5 =  (CheckBox) findViewById(R.id.q_ten_e);
         cb5.setChecked(false);
+    }
 
+    /* Submits the answers
+    evaluates the questions
+    displays final score
+    resets the answers
+     */
+    public void submitGame(View view){
+        //Evaluate question one
+        RadioButton rb1 = (RadioButton) findViewById(R.id.q_one_b);
+        if(rb1.isChecked()) finalScore += 1;
+
+        EditText et = (EditText) findViewById(R.id.image_answer);
+        String answer = et.getText().toString();
+        if (answer.equals("sophia") || answer.equals("Sophia") || answer.equals("SOPHIA")) finalScore += 1;
+
+        RadioButton rb3 = (RadioButton) findViewById(R.id.q_three_b);
+        if(rb3.isChecked()) finalScore += 1;
+
+        RadioButton rb4 = (RadioButton) findViewById(R.id.q_four_a);
+        if(rb4.isChecked()) finalScore += 1;
+
+        RadioButton rb5 = (RadioButton) findViewById(R.id.q_five_b);
+        if(rb5.isChecked()) finalScore += 1;
+
+        RadioButton rb6 = (RadioButton) findViewById(R.id.q_six_c);
+        if(rb6.isChecked()) finalScore += 1;
+
+        RadioButton rb7 = (RadioButton) findViewById(R.id.q_seven_c);
+        if(rb7.isChecked()) finalScore += 1;
+
+        RadioButton rb8 = (RadioButton) findViewById(R.id.q_eight_b);
+        if (rb8.isChecked()) finalScore += 1;
+
+        RadioButton rb9 = (RadioButton) findViewById(R.id.q_nine_a);
+        if(rb9.isChecked()) finalScore += 1;
+
+        CheckBox cb1 = (CheckBox) findViewById(R.id.q_ten_a);
+        CheckBox cb2 = (CheckBox) findViewById(R.id.q_ten_b);
+        CheckBox cb3 = (CheckBox) findViewById(R.id.q_ten_e);
+        if (cb1.isChecked() && cb2.isChecked() && cb3.isChecked()) finalScore += 1;
+
+        //Toast.makeText(MainActivity.this, "Your Score is:" + finalScore, Toast.LENGTH_LONG).show();
+        final Toast myToast = Toast.makeText(MainActivity.this, "Your score is: " + finalScore, Toast.LENGTH_SHORT);
+        myToast.show();
+
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                myToast.cancel();
+            }
+        }, 7000);
+    }
+
+    //Reset Button
+    public void resetGame(View view){
+        //Reset score
+        finalScore = 0;
+
+        //Clear answers
+        reset();
     }
 }

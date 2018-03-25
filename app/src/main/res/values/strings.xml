@@ -70,4 +70,5 @@
     <!--Game play-->
     <string name="resetButton">Reset</string>
     <string name="submitGame">Submit</string>
+
 </resources>
